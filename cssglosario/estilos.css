@@ -1,0 +1,60 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Header */
+header {
+    background: #ca2020; /* Fondo oscuro para el encabezado */
+    color: #fff; /* Texto blanco en el encabezado */
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 2.5rem; /* Tamaño grande de fuente para el título principal */
+    margin: 0;
+    font-weight: bold;
+}
+
+header h2 {
+    font-size: 1.5rem; /* Tamaño de fuente para el subtítulo */
+    margin: 10px 0;
+}
+
+/* Detalles */
+details {
+    background: #fff; /* Fondo blanco para los detalles */
+    border: 1px solid #ccc;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+details summary {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    background: #ca2020; /* Fondo oscuro para el pie de página */
+    color: #fff; /* Texto blanco en el pie de página */
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer .footer-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .footer-text p {
+    font-size: 1.2rem; /* Tamaño de fuente más grande para el texto del pie de página */
+    margin: 0;
+}

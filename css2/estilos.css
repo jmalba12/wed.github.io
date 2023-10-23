@@ -1,0 +1,49 @@
+/* Estilos generales */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    position: relative;
+    width: 100%;
+    background-color: #35495e; /* Color de fondo del encabezado */
+    color: #ffffff; /* Color del texto en el encabezado */
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+header h2 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+/* Footer */
+footer {
+    position: relative;
+    width: 100%;
+    background-color: #35495e; /* Color de fondo del pie de página */
+    color: #ffffff; /* Color del texto en el pie de página */
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer .footer-text {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .footer-text p {
+    font-size: 18px;
+    margin: 0;
+}
